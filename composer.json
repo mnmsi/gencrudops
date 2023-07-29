@@ -19,5 +19,11 @@
                 "Mnmsi\\GenCrudOps\\GenCrudOpsServiceProvider"
             ]
         }
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/mnmsi/gencrudops"
+        }
+    ]
 }
