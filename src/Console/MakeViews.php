@@ -52,7 +52,7 @@ class MakeViews extends Command
 
         if (!File::isDirectory($this->pathsAndNamespacesService->getGencrudopsViewsStubCustom($templateViewsDirectory))) {
             if ($templateViewsDirectory == 'default-views') {
-                $this->error("Publish the default theme with: php artisan vendor:publish --provider=\"Mnmsi\GenCrudOps\GencrudopsServiceProvider\" or create your own default-views directory here: " . $this->pathsAndNamespacesService->getGencrudopsViewsStub());
+                $this->error("Publish the default theme with: php artisan vendor:publish --provider=\"Mnmsi\GenCrudOps\GenCrudOpsServiceProvider\" or create your own default-views directory here: " . $this->pathsAndNamespacesService->getGencrudopsViewsStub());
             } else {
                 $this->error("Do you have created a directory called " . $templateViewsDirectory . " here: " . $this->pathsAndNamespacesService->getGencrudopsViewsStub() . '?');
             }
