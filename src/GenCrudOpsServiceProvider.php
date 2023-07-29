@@ -16,7 +16,7 @@ class GenCrudOpsServiceProvider extends ServiceProvider
         //publish config file
         $this->publishes([__DIR__.'/../config/gencrudops.php' => config_path('gencrudops.php')]);
 
-        //default-theme
+        //default-views
         $this->publishes([__DIR__.'/stubs/default-views/' => resource_path('gencrudops/views/default-views/')]);
 
         //and default-layout
