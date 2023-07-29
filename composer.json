@@ -8,6 +8,12 @@
             "email": "saiful.ibne@gmail.com"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/mnmsi/gencrudops"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "Mnmsi\\GenCrudOps\\": "src/"
@@ -19,11 +25,5 @@
                 "Mnmsi\\GenCrudOps\\GenCrudOpsServiceProvider"
             ]
         }
-    },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/mnmsi/gencrudops"
-        }
-    ]
+    }
 }
