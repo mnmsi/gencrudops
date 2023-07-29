@@ -1,0 +1,23 @@
+{
+    "name": "mnmsi/gencrudops",
+    "description": "Create a Laravel Crud in a few seconds",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Md. Saiful Islam",
+            "email": "saiful.ibne@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Mnmsi\\GenCrudOps\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mnmsi\\GenCrudOps\\GenCrudOpsServiceProvider"
+            ]
+        }
+    }
+}

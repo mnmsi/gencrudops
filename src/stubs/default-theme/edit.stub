@@ -1,0 +1,21 @@
+@extends('DummyExtends')
+
+@section('DummySection')
+
+	@if($errors->any())
+		<div class="alert alert-danger">
+			@foreach ($errors->all() as $error)
+				{{ $error }} <br>
+			@endforeach
+		</div>
+	@endif
+
+	<form action="{{ route('DummyVariable.update', DummyCreateVariableSing$->id) }}" method="post">
+        @method('PUT')
+        @csrf
+
+DummyFormCreate
+
+		<input type="submit" value="Edit" class="btn btn-primary">
+    </form>
+@stop
