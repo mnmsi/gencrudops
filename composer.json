@@ -14,6 +14,10 @@
             "url": "https://github.com/mnmsi/gencrudops"
         }
     ],
+    "require":
+    {
+        "php": ">=8.0"
+    },
     "autoload": {
         "psr-4": {
             "Mnmsi\\GenCrudOps\\": "src/"
