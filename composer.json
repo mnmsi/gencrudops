@@ -14,8 +14,7 @@
             "url": "https://github.com/mnmsi/gencrudops"
         }
     ],
-    "require":
-    {
+    "require": {
         "php": ">=8.0"
     },
     "autoload": {
