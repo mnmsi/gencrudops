@@ -8,6 +8,7 @@
             "email": "saiful.ibne@gmail.com"
         }
     ],
+    "minimum-stability": "dev",
     "repositories": [
         {
             "type": "vcs",
@@ -17,7 +18,6 @@
     "require": {
         "php": ">=8.0"
     },
-    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "Mnmsi\\GenCrudOps\\": "src/"
